@@ -45,6 +45,44 @@ El pipeline está diseñado para procesar múltiples series temporales y generar
 │── requirements.txt
 │── README.md   ← (este archivo)
 
+
+
+🔧 OPCIÓN A — Ejecutar SIN Docker (entorno local)
+1. Clonar el repositorio
+git clone git@github.com:Camilocs7/Machine-Learning.git
+cd Machine-Learning
+
+2. Crear entorno virtual
+python3 -m venv venv
+source venv/bin/activate
+
+3. Instalar dependencias
+pip install -r requirements.txt
+
+4. Verificar TensorFlow
+import tensorflow as tf
+tf.__version__
+
+
+
+
+
+🐳 OPCIÓN B — Ejecutar CON Docker (recomendado)
+1. Construir la imagen
+docker build -t lstm-attention .
+
+2. Ejecutar el contenedor con JupyterLab
+docker-compose up
+
+
+Esto levanta JupyterLab en:
+👉 http://localhost:8888
+
+Sin token, todo listo para usar.
+
+
+
+
 ⚙️ Tecnologías Utilizadas
 
 Python 3.x
