@@ -9,8 +9,6 @@ Microservicio analítico en Python/TensorFlow que entrena modelos **LSTM** y **B
 - **Reproducibilidad:** Entorno virtual (`venv`) + `requirements.txt`; opción de **Docker** y **Docker Compose** con JupyterLab para un entorno de desarrollo integrado y reproducible.
 - **Análisis:** Notebook principal (`codigo_completo_LSTM_ATTENTION.ipynb`) para análisis, visualización y experimentos detallados.
 
-## Estructura del proyecto
-DEEP/ codigo_completo.ipynb codigo_completo_LSTM_ATTENTION.ipynb # Notebook principal y experimentos src/ entrenar_lstm_attention_loop.py # Script de entrenamiento masivo (loop por producto) attention_layer.py # Capa de Atención personalizada (clase Keras) utils.py # Preprocesos y funciones auxiliares (normalización, ventanas) lstm_prueba3/ # Directorio de salida para Modelos entrenados (ignorados por Git) data/ # CSV con datos de entrada (ignorados por Git) requirements.txt docker-compose.yml Dockerfile README.md
 
 ## Instalacion y ejecucion
 
