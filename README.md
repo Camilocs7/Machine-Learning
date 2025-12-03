@@ -1,6 +1,3 @@
-Predicción de Series Temporales con LSTM + Atención
-
-Microservicio analítico en Python/TensorFlow que entrena modelos LSTM y BiLSTM con un mecanismo de Atención personalizado para predecir precios diarios por producto. Proyecto aplicado de Deep Learning para predicción de series temporales.
 # Predicción de Series Temporales con LSTM + Atención
 Microservicio analítico en Python/TensorFlow que entrena modelos **LSTM** y **BiLSTM** con un mecanismo de **Atención** personalizado para predecir precios diarios por producto. Proyecto aplicado de Deep Learning para predicción de series temporales.
 
