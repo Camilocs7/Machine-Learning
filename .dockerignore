@@ -1,0 +1,9 @@
+*.h5
+*.csv
+__pycache__/
+.ipynb_checkpoints/
+lstm_prueba3/
+*.png
+*.jpg
+*.jpeg
+.DS_Store

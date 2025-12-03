@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+seaborn
+ipykernel
+plotly
+tabulate
+scikit-learn
+joblib
+tensorflow[and-cuda]

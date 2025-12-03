@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  deep-env:
+    image: tensorflow/tensorflow:2.17.0-jupyter
+    container_name: deep_lstm_attention
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/tf/work
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: >
+      jupyter lab --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=''

@@ -1,0 +1,118 @@
+# ==========================
+# ARCHIVOS GRANDES / DATASETS
+# ==========================
+prec# ==========================
+# ARCHIVOS GRANDES / DATASETS
+# ==========================
+precio_2023.csv
+precio_2024.csv
+precio_2025.csv
+precios_estandarizados.csv
+precios_estandarizados2.csv
+precios_combinados2.csv
+precios_final_features2.csv
+mis_datos_finales.csv
+
+# Ignorar cualquier CSV grande
+*.csv
+
+# ==========================
+# MODELOS ENTRENADOS
+# ==========================
+models/
+best_models/
+output_models/
+saved_models/
+*.h5
+*.ckpt
+*.pb
+
+# ==========================
+# LOGS / CHECKPOINTS
+# ==========================
+logs/
+tensorboard/
+checkpoints/
+
+# ==========================
+# PYTHON / ENTORNOS
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
+venv/
+env/
+
+# ==========================
+# DOCKER / CACHE
+# ==========================
+docker-cache/
+*.tar
+
+# ==========================
+# EDITOR / SISTEMA
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+io_2023.csv
+precio_2024.csv
+precio_2025.csv
+precios_estandarizados.csv
+precios_estandarizados2.csv
+precios_combinados2.csv
+precios_final_features2.csv
+mis_datos_finales.csv
+
+# Ignorar cualquier CSV grande
+*.csv
+
+# ==========================
+# MODELOS ENTRENADOS
+# ==========================
+models/
+best_models/
+output_models/
+saved_models/
+*.h5
+*.ckpt
+*.pb
+
+# ==========================
+# LOGS / CHECKPOINTS
+# ==========================
+logs/
+tensorboard/
+checkpoints/
+
+# ==========================
+# PYTHON / ENTORNOS
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
+venv/
+env/
+
+# ==========================
+# DOCKER / CACHE
+# ==========================
+docker-cache/
+*.tar
+
+# ==========================
+# EDITOR / SISTEMA
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
